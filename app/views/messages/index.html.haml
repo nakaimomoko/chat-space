@@ -1,17 +1,5 @@
 .chat-side
-  .side-header
-    .side-header__box
-      .side-header__box--title
-        nakai
-      .side-header__box--icons
-        =link_to "#", class: "icon-btn" do
-          %i.fa.fa-edit
-        =link_to "#", class: "icon-btn" do
-          %i.fa.fa-cog
-
-  .side-body
-    .groups
-      = render 'group'
+  = render 'side_bar'
       
 .chat-main
   .main-header
