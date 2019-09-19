@@ -40,7 +40,6 @@
 }
 
 .group {
-  margin-bottom: 40px; 
   &__title {
     color: #fff;
     font-size: 15px;
@@ -49,6 +48,7 @@
   &__new-message {
     color: #fff;
     font-size: 11px;
+    margin-bottom: 40px; 
   }
 }
 
