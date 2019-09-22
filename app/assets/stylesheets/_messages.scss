@@ -131,6 +131,10 @@
 
 .form {
   padding: 20px 40px ;
+}
+
+.new_message {
+  width: 100%;
   display: flex;
 }
 
@@ -150,11 +154,16 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    &__file {
-      display: none;
-
-    }
   }
+}
+
+.field_with_errors {
+  width: 100%;
+  padding: 0 50px 0 10px;
+}
+
+.file {
+  display: none;
 }
 
 .send-btn {
@@ -163,5 +172,6 @@
   background-color: #38AEF0;
   color: #fff;
   margin-left: 15px;
-  padding: 0 30px; 
+  padding: 0 30px;
+  cursor: pointer;
 }
