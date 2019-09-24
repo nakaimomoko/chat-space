@@ -93,11 +93,11 @@
 .main-body {
   height: calc(100vh - 190px);
   background-color: #fafafa;
+  overflow: scroll;
 }
 
 .messages {
   padding: 46px 40px 0 ;
-  overflow: scroll;
 }
 
 .message {
@@ -174,4 +174,8 @@
   margin-left: 15px;
   padding: 0 30px;
   cursor: pointer;
+}
+
+.lower-message__image {
+  width: 200px;
 }
