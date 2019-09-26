@@ -87,7 +87,7 @@ li {
   border-bottom: 1px solid #ddd;
   &:after {
     content: "";
-    clear: both;
+    clear: both; 
     display: block;
   }
   &__name {
