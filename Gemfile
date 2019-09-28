@@ -1,3 +1,7 @@
+group :production do
+  gem 'unicorn', '5.4.1'
+end
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -61,3 +65,4 @@ gem "font-awesome-rails"
 gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
+
