@@ -41,6 +41,7 @@ $(document).on('turbolinks:load', function(){
     })
     .fail(function(){
       alert('エラーが発生したためメッセージは送信できませんでした。');
+      $('.send-btn').prop('disabled', false);
     })
   })
 
